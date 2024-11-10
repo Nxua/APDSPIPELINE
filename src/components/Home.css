@@ -1,0 +1,99 @@
+.home-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #ffffff;
+}
+
+.home-content {
+  text-align: center;
+  padding: 40px;
+  background: #ffffff;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+  width: 350px;
+}
+
+.bank-logo {
+  width: 150px;
+  margin-bottom: 30px;
+}
+
+.bank-name {
+  font-size: 32px;
+  color: #22374a;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.bank-slogan {
+  font-size: 18px;
+  color: #22dfe5;
+  margin-bottom: 30px;
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.input-field {
+  padding: 12px;
+  border: 2px solid #ddd;
+  border-radius: 6px;
+  font-size: 16px;
+  transition: border-color 0.3s;
+}
+
+.input-field:focus {
+  border-color: #22dfe5;
+  outline: none;
+}
+.employee-login-button{
+  background-color: #22374a;
+  color: #ffffff;
+  border: none;
+  padding: 12px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+
+.login-button {
+  background-color: #22374a;
+  color: #ffffff;
+  border: none;
+  padding: 12px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+.login-button:hover {
+  background-color: #1a2c3b;
+}
+
+.register-text {
+  font-size: 16px;
+  color: #666;
+  margin-top: 20px;
+}
+
+.register-link {
+  color: #22dfe5;
+  cursor: pointer;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+.register-link:hover {
+  color: #1aabb3;
+  text-decoration: underline;
+}

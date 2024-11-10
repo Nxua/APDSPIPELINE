@@ -1,0 +1,70 @@
+/* Container for centering the login form */
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #ffffff;
+}
+
+/* Content box styling */
+.login-content {
+    text-align: center;
+    padding: 40px;
+    background: #ffffff;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+    width: 400px;
+}
+
+/* Title styling */
+.login-title {
+    font-size: 32px;
+    color: #22374a;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+/* Form and input styling */
+.login-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.input-field {
+    padding: 12px;
+    border: 2px solid #ddd;
+    border-radius: 6px;
+    font-size: 16px;
+    transition: border-color 0.3s;
+}
+
+.input-field:focus {
+    border-color: #22dfe5;
+    outline: none;
+}
+
+/* Button styling */
+.login-button {
+    background-color: #22374a;
+    color: #ffffff;
+    border: none;
+    padding: 12px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.login-button:hover {
+    background-color: #1a2c3b;
+}
+
+/* Message styling */
+.message {
+    font-size: 16px;
+    color: #22dfe5;
+    margin-top: 20px;
+}

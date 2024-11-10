@@ -1,0 +1,76 @@
+.employee-dashboard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: #ffffff;
+    min-height: 100vh;
+}
+
+.employee-dashboard h2 {
+    font-size: 32px;
+    color: #22374a;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.message {
+    font-size: 16px;
+    color: #22dfe5;
+    margin-top: 20px;
+}
+
+.transactions-table-wrapper {
+    width: 100%;
+    max-width: 800px;
+    max-height: 400px;
+    overflow-y: auto;
+    margin-top: 20px;
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+}
+
+.transactions-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+.transactions-table th,
+.transactions-table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+    font-size: 16px;
+}
+
+.transactions-table th {
+    background-color: #22374a;
+    color: white;
+    padding: 12px;
+}
+
+.transactions-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.transactions-table tr:hover {
+    background-color: #f1f1f1;
+}
+
+.verify-button {
+    background-color: #22dfe5;
+    color: #ffffff;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.verify-button:hover {
+    background-color: #1aabb3;
+}

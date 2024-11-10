@@ -1,0 +1,141 @@
+.dashboard-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; /* Align content to the top to allow space for scrolling */
+    padding: 20px; /* Added padding for better overall spacing */
+    background-color: #ffffff; /* White background */
+    min-height: 100vh; /* Minimum height for the viewport */
+}
+
+.dashboard-content {
+    text-align: center;
+    padding: 40px; /* Padding for better spacing */
+    background: #ffffff;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    border-radius: 12px; /* Smoother rounded corners */
+    width: 100%;
+    max-width: 800px; /* Limit max width to ensure content fits well */
+    overflow: hidden; /* Prevents overflow issues */
+}
+
+.dashboard-title {
+    font-size: 32px; /* Emphasize the welcome message */
+    color: #22374a; /* Theme color */
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.balance-text {
+    font-size: 18px; /* Font size for balance display */
+    color: #22dfe5; /* Slogan color */
+    margin-bottom: 30px;
+}
+
+.logout-button {
+    background-color: #22374a; /* Theme color */
+    color: #ffffff;
+    border: none;
+    padding: 12px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.logout-button:hover {
+    background-color: #1a2c3b; /* Darker shade for hover effect */
+}
+
+.divider {
+    margin: 30px 0;
+    border: 1px solid #ddd;
+}
+
+.payment-title {
+    font-size: 24px;
+    color: #22374a; /* Theme color */
+    margin-bottom: 20px;
+}
+
+.payment-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.input-field, .select-field {
+    padding: 12px;
+    border: 2px solid #ddd;
+    border-radius: 6px;
+    font-size: 16px;
+    transition: border-color 0.3s;
+}
+
+.input-field:focus, .select-field:focus {
+    border-color: #22dfe5; /* Focus border in theme color */
+    outline: none;
+}
+
+.payment-button {
+    background-color: #22dfe5; /* Theme color */
+    color: #ffffff;
+    border: none;
+    padding: 12px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.payment-button:hover {
+    background-color: #1aabb3; /* Darker shade for hover effect */
+}
+
+.success-message {
+    font-size: 16px;
+    color: #22dfe5;
+    margin-top: 20px;
+}
+
+.payment-history-title {
+    font-size: 24px;
+    color: #22374a;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.payment-history-table-wrapper {
+    max-height: 400px; /* Set a maximum height for the payment history table */
+    overflow-y: auto; /* Allow vertical scrolling */
+    margin-top: 20px;
+    border: 1px solid #ddd; /* Add border to distinguish the payment history area */
+}
+
+.payment-history-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+.payment-history-table th,
+.payment-history-table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+    font-size: 16px;
+}
+
+.payment-history-table th {
+    background-color: #22374a;
+    color: white;
+}
+
+.payment-history-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+.payment-history-table tr:hover {
+    background-color: #f1f1f1;
+}
